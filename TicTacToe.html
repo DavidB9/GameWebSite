@@ -1,20 +1,19 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="Utf-8">
-        <Title>TicTacToe</Title>
+        <title>Tic Tac Toe Game</title>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <link rel="stylesheet"  href="CSS/TicTacGame.css">
         <script src="JavaScript/TicTacToe.js"></script>
     </head>
-    <!--Body-->
-    <body class="background">
-        <!--Navbar-->
-        <div class="Navbar">
-            <a href="Index.html">Home</a>
-            <a href="About.html">About</a>
+    <body id="body">
+        <div>
+            <nav>
+                <a href="Index.html">Home</a>
+                <a href="About.html">About</a>
+            </nav>
         </div>
-        <!--TicTacGame-->
         <h1 style="text-align:center">Play Tic Tac Toe!</h1>
         <!--This container is needed to overlay our canvas over our table-->
         <div class="center-container">
@@ -38,5 +37,6 @@
                 </tr>
             </table>
         </div>
+        <button onclick="resetGame()">Click to Restart Game</button>
     </body>
 </html>
